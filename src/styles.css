@@ -41,3 +41,7 @@ button:disabled {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.selectedHero{
+  color: #444;
+}
