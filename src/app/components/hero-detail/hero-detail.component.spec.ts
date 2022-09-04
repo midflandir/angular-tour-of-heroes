@@ -1,9 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Location } from '@angular/common';
 import { HeroDetailComponent } from './hero-detail.component';
+import { ActivatedRoute } from '@angular/router';
+import { HeroService } from '../../service/hero.service';
 
 describe('HeroDetailComponent', () => {
+
+
+
   let component: HeroDetailComponent;
+
+
+
   let fixture: ComponentFixture<HeroDetailComponent>;
 
   beforeEach(async () => {
